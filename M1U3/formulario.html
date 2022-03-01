@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario de contacto</title>
+    <h1>Formulario</h1>
+
+    <form action="">
+        <p>
+            <label for="">Nombre</label>
+            <input type="text">
+        </p>
+        <p>
+            <label for="">Apellido</label>
+            <input type="text">
+        </p>
+            <label for="sex">Sexo</label>
+            <ul>
+                <li>
+                    <input type="radio" name="sex" value="hombre">
+                    <label for="">Hombre</label>
+                </li>
+                <li>
+                    <input type="radio" name="sex" value="mujer">
+                    <label for="">Mujer</label>
+                </li>
+            </ul>
+            <ul>
+                <label for="">Hobbies</label>
+            </ul>
+            <li>
+                <input type="checkbox" name="hobbies[]" value="Futbol" id="Futbol">
+                <label for="Futbol">Futbol</label>
+            </li>
+            <li>
+                <input type="checkbox" name="hobbies[]" value="Video Juegos" id="Video Juegos">
+                <label for="Video Juegos">Video Juegos</label>
+            </li>
+            <li>
+                <input type="checkbox" name="hobbies[]" value="Musica" id="Musica">
+                <label for="Musica">Musica</label>
+            </li>
+            <p>
+                <label for="titulo">Titulo</label>
+                <select name="titulo" id="">
+                    <option value="primario">Primario</option>
+                    <option value="pecundario">Secundario</option>
+                    <option value="terciario">Terciario</option>
+                    <option value="universitario">Universitario</option>
+                </select>
+            </p>
+            <p>
+                <label for="comentarios">comentarios</label>
+                <textarea name="comentarios" id="" cols="30" rows="10"></textarea>
+            </p>
+        <p>
+            <input type="password" placeholder="Escribi tu Contraseña">
+        </p>
+
+        <p>
+            <input type="submit" value="Enviar">
+        </p>
+        <p>
+            <input type="reset" name="borrar" id="">
+        </p>
+    </form>
+
+</head>
+<body>
+    
+</body>
+</html>
