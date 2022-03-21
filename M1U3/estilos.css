@@ -1,5 +1,8 @@
 body{
-    background-color: palegreen;
+    background: #00ffe7;
+background: linear-gradient(90deg,#00ffe7 0%, #00ff20 80%);
+background: -webkit-linear-gradient(90deg,#00ffe7 0%, #00ff20 80%);
+background: -moz-linear-gradient(90deg,#00ffe7 0%, #00ff20 80%);
 }
 h1{
     color: red;
@@ -12,6 +15,7 @@ h2{
     color: black;
     font-family: Arial, Helvetica, sans-serif;
     text-decoration: underline;
+    box-shadow: 0 0 15px black;
 
 }
 
