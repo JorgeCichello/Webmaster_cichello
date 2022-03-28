@@ -1,0 +1,27 @@
+.padre{
+    width: 600px;
+    height: 600px;
+    display: inline-flex;
+    flex-direction: column;
+    border: 1px black solid;
+    align-items: flex-end;
+}
+.item{
+    width: 200px;
+    height: 200px;
+    text-align: center;
+}
+#rojo{
+    background-color: red;
+}
+#azul{
+    background-color: blue;
+}
+#verde{
+    background-color: green;
+}
+p{
+    text-align: center;
+    font-size: 10px;
+    color: white;
+}
