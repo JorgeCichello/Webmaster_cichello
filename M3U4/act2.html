@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Act2</title>
+</head>
+<body>
+    <div class="box">
+        <textarea rows="3" maxlength="500" id="mensaje"></textarea>
+        <div id="contador">0/500</div>
+      </div>
+      <script>
+          var mensaje = document.getElementById('mensaje');
+var contador = document.getElementById('contador');
+
+mensaje.addEventListener('input', function(e) {
+    var target = e.target;
+    var longitudMax = target.getAttribute('maxlength');
+    var longitudAct = target.value.length;
+    contador.innerHTML = `${longitudAct}/${longitudMax}`;
+});
+      </script>
+</body>
+</html>
